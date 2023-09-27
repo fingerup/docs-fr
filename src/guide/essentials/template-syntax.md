@@ -30,7 +30,7 @@ Les doubles moustaches interprètent les données comme du texte brut et non com
 </script>
 
 <div class="demo">
-  <p>Using text interpolation: {{ rawHtml }}</p>
+  <p>Using text interpolation: {{ htmlBrut }}</p>
   <p>Using v-html directive: <span v-html="htmlBrut"></span></p>
 </div>
 
